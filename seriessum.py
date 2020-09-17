@@ -1,0 +1,7 @@
+a=int(input("Enter the starting value of a of the AP\n"))
+d=int(input("Enter the common difference of the AP\n"))
+n=int(input("Enter the nth value\n"))
+last=a+((n-1)*d)
+sum=(n/2*(last+a))
+print("nth term is",last)
+print('sum of nth term is',sum)
