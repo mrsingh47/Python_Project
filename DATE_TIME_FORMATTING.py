@@ -1,0 +1,10 @@
+import datetime
+todaystime=datetime.datetime.now()
+todaysdate=datetime.date.today()
+print(todaysdate)
+formateddate=todaysdate.strftime("%d/%B/%Y %A")
+formatedtime=todaystime.strftime("%H:%M:%S %p")
+print(formateddate)
+print(formatedtime)
+print(todaysdate+datetime.timedelta(days=29))
+print(todaysdate+datetime.timedelta(hours=72))
