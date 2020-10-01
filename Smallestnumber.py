@@ -1,3 +1,4 @@
+#to find smallest of given 3 numbers
 def smallest(a,b,c):
     d = 0
     while ( a and b and c ):
